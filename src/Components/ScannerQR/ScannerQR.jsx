@@ -34,7 +34,7 @@ export const ScannerQR = () => {
     const formData = new FormData();
     formData.append("file", file);
 
-    const API_URL = `http://api.qrserver.com/v1/read-qr-code/`;
+    const API_URL = `https://api.qrserver.com/v1/read-qr-code/`;
     try {
       fetch(API_URL, {
         method: "POST",
