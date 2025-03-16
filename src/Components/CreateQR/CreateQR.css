@@ -1,0 +1,33 @@
+.div-create-qr-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 266px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.text-to-convert {
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  resize: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  outline: none;
+  /* margin-bottom: 10px; */
+}
+
+.text-to-convert:focus-visible {
+  border: 2px solid #5b5b5b;
+}
+
+a {
+  text-decoration: none;
+}

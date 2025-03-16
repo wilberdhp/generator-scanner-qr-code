@@ -1,0 +1,44 @@
+label {
+  width: 100%;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #306dfb;
+  color: #fff;
+  border-radius: 7px;
+  transition: all .3s ease;
+}
+
+label:hover {
+  background-color: #004cff;
+}
+
+
+label input {
+  display: none;
+}
+
+
+.text-qr-code {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  resize: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  outline: none;
+}
+
+.bi-cloud-arrow-up {
+  font-size: 60px;
+}
+
+.container.active label {
+  height: 119px;
+}

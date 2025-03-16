@@ -1,0 +1,35 @@
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #306dfb;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  transition: all .3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 120px;
+} 
+
+.btn:hover {
+  background-color: #004cff;
+}
+
+.btn-cancel {
+  background-color: #fff;
+  color: #004cff;
+  border: 1px solid #004cff;
+}
+
+.btn-cancel:hover {
+  background: #e0eaff;
+}
